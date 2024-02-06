@@ -69,17 +69,17 @@ input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
-	appearance: none;
+	
 }
 
 .single-paragraph {
-	font-size: 11px; /* Set your desired font size */
+	font-size: 8.5px; /* Set your desired font size */
 	/* You can add other styles here if needed */
 }
 blockquote {
 	font-style: italic;
-	border-left: 2px solid #2d740f; /* Set your desired border color */
-	padding-left: 9px; /* Adjust as needed for spacing */
+	border-left: 1px solid #2d740f; /* Set your desired border color */
+	padding-left: 5px; /* Adjust as needed for spacing */
 }
 
 
@@ -165,6 +165,11 @@ blockquote {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+body {
+	font-family: 'Courier New', monospace;
+}
+
+/* Additional styling, if needed */
 
 	body {
 		display: -moz-flex;
@@ -324,6 +329,11 @@ blockquote {
 			border-bottom-color: transparent;
 			color: #ffe4b4;
 		}
+body {
+	font-family: 'Courier New', monospace;
+}
+
+/* Additional styling, if needed */
 
 	strong, b {
 		color: rgba(255, 255, 255, 0.875);
@@ -450,6 +460,7 @@ blockquote {
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
+	
 		font-size: 0.8rem;
 		margin: 0 0 1.5rem 0;
 		white-space: pre-wrap;
@@ -469,6 +480,14 @@ blockquote {
 		margin: 1.875rem 0;
 	}
 
+	.bold-blue {
+		font-weight: bold;
+		color: #ADD8E6; /* Light blue color */
+	}
+
+/* Additional styling, if needed */
+
+
 	.align-left {
 		text-align: left;
 	}
@@ -480,6 +499,15 @@ blockquote {
 	.align-right {
 		text-align: right;
 	}
+.code-block {
+	font-family: 'Courier New', monospace;
+	margin: 0;
+	padding: 0;
+	font-size:inherit;
+}
+
+	/* Additional styling for code blocks, if needed */
+
 
 	@media screen and (max-width: 736px) {
 
