@@ -1783,12 +1783,12 @@ blockquote {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		height: 100%;
+		height: 50%;
 	}
 
 		.gallery > * {
 			width: 20rem;
-			height: 100%;
+			height: 50%;
 		}
 
 		.gallery .image {
