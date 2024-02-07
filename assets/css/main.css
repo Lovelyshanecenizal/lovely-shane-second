@@ -884,7 +884,7 @@ input[type="radio"] + label:before {
 .image {
     display: inline-block;
     position: relative;
-    border: 0;
+    border: 6;
 }
 
     .image.filtered:after {
